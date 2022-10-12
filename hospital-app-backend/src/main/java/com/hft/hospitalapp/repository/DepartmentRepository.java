@@ -1,6 +1,6 @@
 package com.hft.hospitalapp.repository;
 
-import com.hft.hospitalapp.model.Department;
+import com.hft.hospitalapp.entity.Department;
 
 import java.util.List;
 

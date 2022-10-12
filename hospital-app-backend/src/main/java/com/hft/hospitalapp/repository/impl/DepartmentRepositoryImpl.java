@@ -1,6 +1,6 @@
 package com.hft.hospitalapp.repository.impl;
 
-import com.hft.hospitalapp.model.Department;
+import com.hft.hospitalapp.entity.Department;
 import com.hft.hospitalapp.repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;

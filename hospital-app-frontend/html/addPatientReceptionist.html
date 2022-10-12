@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/icon.PNG"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="../js/addPatientReceptionist.js"></script>
+    <title>Add Patient</title>
+</head>
+
+<body>
+<div class="container-fluid" style="padding-top: 160px;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-md">
+            <a class="navbar-brand" href="./homeReceptionist.html">Home</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Log out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container-md">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <h3>Add Patient</h3>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1" style="width: 155px;">Insurance Id</span>
+                <input id="insuranceId" type="number" class="form-control" aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1" style="width: 155px;">Fullname</span>
+                <input id="fullname" type="text" class="form-control" aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01" style="width: 155px;">Gender</label>
+                <select class="form-select" id="gender">
+                    <option value="f">Female</option>
+                    <option value="m">Male</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1" style="width: 155px;">Birthday</span>
+                <input id="birthday" type="date" class="form-control"
+                       aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1" style="width: 155px;">Address</span>
+                <input id="address" type="text" class="form-control" aria-describedby="basic-addon1">
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-9"></div>
+        <div class="col-1" style="padding-top: 20px;">
+            <button onclick="addPatient();" class="btn btn-primary">Save</button>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-package com.hft.hospitalapp.model;
+package com.hft.hospitalapp.entity;
 
 
 import lombok.AllArgsConstructor;

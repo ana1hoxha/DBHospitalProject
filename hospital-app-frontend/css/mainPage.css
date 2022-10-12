@@ -1,0 +1,29 @@
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url('../images/hospitalbackground.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .navbar-nav > li{
+    padding-left:2px;
+    padding-right:2px;
+  }
+
+  .navbar-nav > li{
+    margin-left:2px;
+    margin-right:2px;
+  }

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/icon.PNG"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="../js/editTestDoctor.js"></script>
+    <title>Edit Test</title>
+</head>
+
+<body>
+<div class="container-fluid" style="padding-top: 160px;">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-md">
+            <a class="navbar-brand" href="./homeDoctor.html">Home</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Log out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container-md">
+  
+  
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <h3>Edit Test</h3>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+   <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Id</span>
+                    <input id="testId" type="text" class="form-control" aria-describedby="basic-addon1" disabled>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+       
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Diagnosis</span>
+                    <input id="diagnosis" type="text" class="form-control" aria-describedby="basic-addon1" >
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Date</span>
+                    <input id="testDate" type = "date" class="form-control" aria-describedby="basic-addon1" disabled>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+       
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Doctor</span>
+                    <input id="doctor" type="text" class="form-control" aria-describedby="basic-addon1" disabled >
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Patient</span>
+                    <input id="patient" type="text" class="form-control" aria-describedby="basic-addon1" disabled >
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Test Type</span>
+                    <select class="form-select" id="testType">
+                        <option value="Blood">Blood</option>
+                        <option value="SST">SST</option>
+                        <option value="ECG">ECG</option>
+                        <option value="CT Scan">CT Scan</option>
+                        <option value="Biochemical">Biochemical</option>
+                        <option value="Tumor markers">Tumor markers</option>
+                        <option value="MRI">MRI</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+    
+        
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Test Price</span>
+                    <input id="testPrice" type="nunber" class="form-control" aria-describedby="basic-addon1" disabled>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Test Status</span>
+                    <select class="form-select" id="testStatus">
+                        <option value="CREATED">CREATED</option>
+                        <option value="CANCELLED BY PATIENT">CANCELLED BY PATIENT</option>
+                        <option value="CANCELLED BY DOCTOR">CANCELLED BY DOCTOR</option>
+                        <option value="ATTENDED">ATTENDED</option>
+                        <option value="PATIENT NOT  SHOWED UP">PATIENT NOT  SHOWED UP</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1" style="width: 155px;">Payment Status</span>
+                    <select class="form-select" id="paymentStatus" disabled>
+                        <option value="NOT PAID">NOT PAID</option>
+                        <option value="PAID">PAID</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+
+
+    <div class="row">
+        <div class="col-9"></div>
+        <div class="col-1" style="padding-top: 20px;">
+            <button onclick="saveTest();" class="btn btn-primary">Save</button>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
